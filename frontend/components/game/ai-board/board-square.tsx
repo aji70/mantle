@@ -86,7 +86,7 @@ export default function BoardSquare({
           <div
             className={`absolute ${devPositionClass} z-30 bg-yellow-500 text-black text-sm font-bold rounded-full w-10 h-10 flex items-center justify-center shadow-2xl`}
           >
-            {devLevel === 5 ? "🏨" : devLevel}
+            {devLevel === 5 ? "🏨" : `🏠 ${devLevel}`}
           </div>
         )}
 

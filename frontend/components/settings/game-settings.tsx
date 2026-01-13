@@ -45,7 +45,7 @@ interface GameCreateResponse {
   id?: string | number;
 }
 
-const USDC_DECIMALS = 6;
+const USDC_DECIMALS = 18;
 const stakePresets = [1, 5, 10, 25, 50, 100];
 
 export default function GameSettings() {
